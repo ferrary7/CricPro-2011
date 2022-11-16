@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+h1{
+    margin-top: 70px;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #696969;
+}
+h2{
+    color: #696969;
+    font-size: 30px;
+}
+table{
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+thead{
+    background-color: #efefef;
+}
+
+tr{
+    border-bottom: .5px solid #c0c0c0;
+}
+
+thead tr,tr:last-child{
+    border-bottom: 0;
+}
+
+th,td{
+    padding: 7px 7px;
+    font-weight: 400;
+}
+
+.teamScorecard{
+    background-color: orangered;
+    color: #ffffff;
+}
+
+.name{
+    width: 200px;
+    text-align: left;
+}
+
+.player{
+    color: #2F80ED;
+    cursor: pointer;
+}
+
+.desc{
+    width: 400px;
+    text-align: left;
+}
+
+.data{
+    text-align: center;
+    width: 50px;
+}
+
+.long{padding-left: 20px;}
+
+.center{
+    text-align: center;
+}
+
+#player-img{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 30vw;
+}
